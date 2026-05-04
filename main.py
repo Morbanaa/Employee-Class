@@ -55,6 +55,7 @@ def main():
 
     # Display table calling employee display method
     for employee in employees:
+        print("Name ----------- Id_number ----------- Department ----------- Job_title:")
         employee.display()
 
 
