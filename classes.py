@@ -6,4 +6,6 @@ class Employee():
         self.job_title = job_title
 
     def display(self):
-        print(f"{self.name} {self.id_number} {self.department} {self.job_title}")
+        print(f"{self.name:<20} {self.id_number:<20} {self.department:<20} {self.job_title}")
+
+
